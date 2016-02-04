@@ -17,6 +17,11 @@ public class Experiments {
      fruit[0] = new Kiwi();
      fruit[1] = new Apple();
      fruit[2] = new Banana();
+     
+     for(Fruit a: fruit) {
+         
+         a.Taste();
+     }
     }
     
 }
