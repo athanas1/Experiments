@@ -22,6 +22,12 @@ public class Experiments {
          
          a.Taste();
      }
+     Trip fun = new Trip();
+     
+     fun.AirportExcursion();
+     
+     
+     
     }
     
 }
