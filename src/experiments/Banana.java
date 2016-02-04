@@ -10,5 +10,16 @@ package experiments;
  * @author Alex
  */
 public class Banana implements Fruit {
-    
+
+    @Override
+    public void Taste() {
+        System.out.println("I am Sweet and Tasty");
+    }
+
+    @Override
+    public void Color() {
+        System.out.println("I am Yellow");
+    }
+
+   
 }

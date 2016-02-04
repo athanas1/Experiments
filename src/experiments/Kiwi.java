@@ -10,5 +10,15 @@ package experiments;
  * @author Alex
  */
 public class Kiwi implements Fruit {
+
+    @Override
+    public void Taste() {
+        System.out.println("I am Very tart and sweet");
+    }
+
+    @Override
+    public void Color() {
+        System.out.println("I have a Brown exterior but a Green interior");
+    }
     
 }

@@ -10,5 +10,15 @@ package experiments;
  * @author Alex
  */
 public class Apple implements Fruit {
+
+    @Override
+    public void Taste() {
+        System.out.println(" I am Tart and Sweet");
+    }
+
+    @Override
+    public void Color() {
+        System.out.println("I can be Green, Yellow, or Red");
+    }
     
 }

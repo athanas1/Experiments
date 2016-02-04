@@ -10,7 +10,7 @@ package experiments;
  * @author Alex
  */
 public interface Fruit {
-    public abstract String Taste();
+    public abstract void Taste();
     
-    public abstract String Color();
+    public abstract void Color();
 }

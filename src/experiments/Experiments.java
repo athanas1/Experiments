@@ -13,7 +13,10 @@ public class Experiments {
 
    
     public static void main(String[] args) {
-        // TODO code application logic here
+     Fruit[] fruit = new Fruit[3];
+     fruit[0] = new Kiwi();
+     fruit[1] = new Apple();
+     fruit[2] = new Banana();
     }
     
 }
